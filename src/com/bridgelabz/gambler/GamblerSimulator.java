@@ -3,7 +3,7 @@ package com.bridgelabz.gambler;
 import java.util.Scanner;
 
 public class GamblerSimulator {
-	static int AMOUNT_OF_STAKE = 100;
+static int AMOUNT_OF_STAKE = 100;
 	static int BET_AMOUNT = 1;
 	static int WON = 1;
 	static int LOST = 0;
@@ -46,6 +46,8 @@ public class GamblerSimulator {
 		}
 		System.out.println("Total amount player has after 20 days as per day included = " + TOTAL_AMOUNT + " $");
 
+
+	
 	}
 
 }
