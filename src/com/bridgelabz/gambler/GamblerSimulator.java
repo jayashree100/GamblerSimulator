@@ -3,6 +3,7 @@ package com.bridgelabz.gambler;
 import java.util.Scanner;
 
 public class GamblerSimulator {
+
 	static int TOTAL_AMOUNT_DIFF_IN_MONTH=0;
 	static int WON=1;
 	static int LOST=0;
@@ -99,6 +100,5 @@ public class GamblerSimulator {
 				 break;
 			 }
 		 }
-	}
-}
 
+	}
