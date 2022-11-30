@@ -5,10 +5,11 @@ import java.util.Scanner;
 public class GamblerSimulator {
 	static int AMOUNT_OF_STAKE = 100;
 	static int TOTAL_AMOUNT_DIFF_IN_MONTH = 0;
-	static int BET_AMOUNT = 1;
-	static int WON = 1;
-	static int LOST = 0;
-	static int TOTAL_AMOUNT = 0;
+   static int AMOUNT_OF_STAKE = 100;
+	 static int BET_AMOUNT = 1;
+	 static int WON = 1;
+	 static int LOST = 0;
+	 static int TOTAL_AMOUNT = 0;
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -58,5 +59,7 @@ public class GamblerSimulator {
 		} else {
 			System.out.println("Total cash gambler lost in that month " + TOTAL_AMOUNT_DIFF_IN_MONTH + " $");
 		}
+
+	
 	}
 }
