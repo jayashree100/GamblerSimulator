@@ -3,13 +3,14 @@ package com.bridgelabz.gambler;
 import java.util.Scanner;
 
 public class GamblerSimulator {
-	static int AMOUNT_OF_STAKE=100;
-	static int BET_AMOUNT=1;
-	static final int WON=1;
-	static final int LOST=0;
-
+	
+	static int AMOUNT_OF_STAKE = 100;
+	static int BET_AMOUNT = 1;
+	static int WON = 1;
+	static int LOST = 0;
 
 	public static void main(String[] args) {
+
 		 Scanner sc = new Scanner(System.in);
 		 System.out.println("Starting amount of stake is "+AMOUNT_OF_STAKE);
 		 System.out.println("Amount to bet after every play "+BET_AMOUNT);
@@ -43,7 +44,7 @@ public class GamblerSimulator {
 			 
 		 }
 
-
+		
 	}
 
 }
