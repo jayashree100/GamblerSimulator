@@ -3,12 +3,15 @@ package com.bridgelabz.gambler;
 import java.util.Scanner;
 
 public class GamblerSimulator {
-	static int AMOUNT_OF_STAKE=100;
-	static int TOTAL_AMOUNT_DIFF_IN_MONTH=0;
-	static int BET_AMOUNT=1;
-	static int WON=1;
-	static int LOST=0;
-	static int TOTAL_AMOUNT=0;
+
+	static int AMOUNT_OF_STAKE = 100;
+	static int TOTAL_AMOUNT_DIFF_IN_MONTH = 0;
+   static int AMOUNT_OF_STAKE = 100;
+	 static int BET_AMOUNT = 1;
+	 static int WON = 1;
+	 static int LOST = 0;
+	 static int TOTAL_AMOUNT = 0;
+
 	public static void main(String[] args) {
 		 Scanner sc = new Scanner(System.in);
 		 System.out.println("Starting amount of stake is "+AMOUNT_OF_STAKE);
@@ -53,6 +56,7 @@ public class GamblerSimulator {
 			 }
 			 TOTAL_AMOUNT = TOTAL_AMOUNT + cashInHand;
 		}
+
 		 System.out.println("Total amount player has after 20 days as per day included = "+TOTAL_AMOUNT+" $");
 		 TOTAL_AMOUNT_DIFF_IN_MONTH = TOTAL_AMOUNT - AMOUNT_OF_STAKE * 20;
 		 if(TOTAL_AMOUNT_DIFF_IN_MONTH > 0) {
@@ -60,6 +64,6 @@ public class GamblerSimulator {
 		 }
 		 else {
 			 System.out.println("Total cash gambler lost in that month "+(-TOTAL_AMOUNT_DIFF_IN_MONTH)+" $");
-		 }
+		 
 	}
 }
